@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		52A62A272E1A9E9000F31D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A62A112E1A9E8F00F31D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A62A182E1A9E8F00F31D30;
+			remoteInfo = "Circle of death";
+		};
+		52A62A312E1A9E9000F31D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A62A112E1A9E8F00F31D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A62A182E1A9E8F00F31D30;
+			remoteInfo = "Circle of death";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52A62A192E1A9E8F00F31D30 /* Circle of death.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle of death.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A62A262E1A9E9000F31D30 /* Circle of deathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle of deathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A62A302E1A9E9000F31D30 /* Circle of deathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle of deathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52A62A1B2E1A9E8F00F31D30 /* Circle of death */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Circle of death";
+			sourceTree = "<group>";
+		};
+		52A62A292E1A9E9000F31D30 /* Circle of deathTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Circle of deathTests";
+			sourceTree = "<group>";
+		};
+		52A62A332E1A9E9000F31D30 /* Circle of deathUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Circle of deathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A62A162E1A9E8F00F31D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A62A232E1A9E9000F31D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A62A2D2E1A9E9000F31D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A62A102E1A9E8F00F31D30 = {
+			isa = PBXGroup;
+			children = (
+				52A62A1B2E1A9E8F00F31D30 /* Circle of death */,
+				52A62A292E1A9E9000F31D30 /* Circle of deathTests */,
+				52A62A332E1A9E9000F31D30 /* Circle of deathUITests */,
+				52A62A1A2E1A9E8F00F31D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A62A1A2E1A9E8F00F31D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A62A192E1A9E8F00F31D30 /* Circle of death.app */,
+				52A62A262E1A9E9000F31D30 /* Circle of deathTests.xctest */,
+				52A62A302E1A9E9000F31D30 /* Circle of deathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A62A182E1A9E8F00F31D30 /* Circle of death */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A62A3A2E1A9E9000F31D30 /* Build configuration list for PBXNativeTarget "Circle of death" */;
+			buildPhases = (
+				52A62A152E1A9E8F00F31D30 /* Sources */,
+				52A62A162E1A9E8F00F31D30 /* Frameworks */,
+				52A62A172E1A9E8F00F31D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52A62A1B2E1A9E8F00F31D30 /* Circle of death */,
+			);
+			name = "Circle of death";
+			packageProductDependencies = (
+			);
+			productName = "Circle of death";
+			productReference = 52A62A192E1A9E8F00F31D30 /* Circle of death.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52A62A252E1A9E9000F31D30 /* Circle of deathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A62A3D2E1A9E9000F31D30 /* Build configuration list for PBXNativeTarget "Circle of deathTests" */;
+			buildPhases = (
+				52A62A222E1A9E9000F31D30 /* Sources */,
+				52A62A232E1A9E9000F31D30 /* Frameworks */,
+				52A62A242E1A9E9000F31D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A62A282E1A9E9000F31D30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52A62A292E1A9E9000F31D30 /* Circle of deathTests */,
+			);
+			name = "Circle of deathTests";
+			packageProductDependencies = (
+			);
+			productName = "Circle of deathTests";
+			productReference = 52A62A262E1A9E9000F31D30 /* Circle of deathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52A62A2F2E1A9E9000F31D30 /* Circle of deathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A62A402E1A9E9000F31D30 /* Build configuration list for PBXNativeTarget "Circle of deathUITests" */;
+			buildPhases = (
+				52A62A2C2E1A9E9000F31D30 /* Sources */,
+				52A62A2D2E1A9E9000F31D30 /* Frameworks */,
+				52A62A2E2E1A9E9000F31D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A62A322E1A9E9000F31D30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52A62A332E1A9E9000F31D30 /* Circle of deathUITests */,
+			);
+			name = "Circle of deathUITests";
+			packageProductDependencies = (
+			);
+			productName = "Circle of deathUITests";
+			productReference = 52A62A302E1A9E9000F31D30 /* Circle of deathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A62A112E1A9E8F00F31D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					52A62A182E1A9E8F00F31D30 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					52A62A252E1A9E9000F31D30 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 52A62A182E1A9E8F00F31D30;
+					};
+					52A62A2F2E1A9E9000F31D30 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 52A62A182E1A9E8F00F31D30;
+					};
+				};
+			};
+			buildConfigurationList = 52A62A142E1A9E8F00F31D30 /* Build configuration list for PBXProject "Circle of death" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A62A102E1A9E8F00F31D30;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52A62A1A2E1A9E8F00F31D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A62A182E1A9E8F00F31D30 /* Circle of death */,
+				52A62A252E1A9E9000F31D30 /* Circle of deathTests */,
+				52A62A2F2E1A9E9000F31D30 /* Circle of deathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A62A172E1A9E8F00F31D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A62A242E1A9E9000F31D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A62A2E2E1A9E9000F31D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A62A152E1A9E8F00F31D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A62A222E1A9E9000F31D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A62A2C2E1A9E9000F31D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A62A282E1A9E9000F31D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A62A182E1A9E8F00F31D30 /* Circle of death */;
+			targetProxy = 52A62A272E1A9E9000F31D30 /* PBXContainerItemProxy */;
+		};
+		52A62A322E1A9E9000F31D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A62A182E1A9E8F00F31D30 /* Circle of death */;
+			targetProxy = 52A62A312E1A9E9000F31D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52A62A382E1A9E9000F31D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A62A392E1A9E9000F31D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A62A3B2E1A9E9000F31D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tim.Circle-of-death";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A62A3C2E1A9E9000F31D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tim.Circle-of-death";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52A62A3E2E1A9E9000F31D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tim.Circle-of-deathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circle of death.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Circle of death";
+			};
+			name = Debug;
+		};
+		52A62A3F2E1A9E9000F31D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tim.Circle-of-deathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circle of death.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Circle of death";
+			};
+			name = Release;
+		};
+		52A62A412E1A9E9000F31D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tim.Circle-of-deathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circle of death";
+			};
+			name = Debug;
+		};
+		52A62A422E1A9E9000F31D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tim.Circle-of-deathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circle of death";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A62A142E1A9E8F00F31D30 /* Build configuration list for PBXProject "Circle of death" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A62A382E1A9E9000F31D30 /* Debug */,
+				52A62A392E1A9E9000F31D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A62A3A2E1A9E9000F31D30 /* Build configuration list for PBXNativeTarget "Circle of death" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A62A3B2E1A9E9000F31D30 /* Debug */,
+				52A62A3C2E1A9E9000F31D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A62A3D2E1A9E9000F31D30 /* Build configuration list for PBXNativeTarget "Circle of deathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A62A3E2E1A9E9000F31D30 /* Debug */,
+				52A62A3F2E1A9E9000F31D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A62A402E1A9E9000F31D30 /* Build configuration list for PBXNativeTarget "Circle of deathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A62A412E1A9E9000F31D30 /* Debug */,
+				52A62A422E1A9E9000F31D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A62A112E1A9E8F00F31D30 /* Project object */;
+}

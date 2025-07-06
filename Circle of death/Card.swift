@@ -36,20 +36,29 @@ struct Card: Identifiable {
 
 struct CardView: View {
     let card: Card
+    var faceUp: Bool = false
 
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 5)
-                .fill(Color.white)
-                .shadow(radius: 1)
-            VStack(spacing: 2) {
-                Text(card.rank)
-                    .font(.caption)
-                    .bold()
-                Text(card.suit.rawValue)
-                    .font(.caption2)
+            if faceUp {
+                RoundedRectangle(cornerRadius: 5)
+                    .fill(Color.white)
+                    .shadow(radius: 1)
+                VStack(spacing: 2) {
+                    Text(card.rank)
+                        .font(.caption)
+                        .bold()
+                    Text(card.suit.rawValue)
+                        .font(.caption2)
+                }
+                .foregroundColor(card.suit.color)
+            } else {
+                RoundedRectangle(cornerRadius: 5)
+                    .fill(Color.blue)
+                    .shadow(radius: 1)
+                Image(systemName: "questionmark")
+                    .foregroundColor(.white)
             }
-            .foregroundColor(card.suit.color)
         }
         .overlay(
             RoundedRectangle(cornerRadius: 5)

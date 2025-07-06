@@ -10,8 +10,8 @@ import Testing
 
 struct Circle_of_deathTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test func testDeckContains52Cards() async throws {
+        #expect(Card.deck.count == 52)
     }
 
 }
